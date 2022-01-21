@@ -17,10 +17,14 @@
  }
 
 a{
-    color: #31a6ec;
+    color: #DE0F73;
 }
 a:hover{
-    color: #2091d4;
+    color: #f0318d;
+}
+
+code {
+  color: #6121f0;
 }
 /* Toggle Styles */
 
@@ -1124,7 +1128,7 @@ img {
 
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
-    background: url('../images/deco.png') 40% 140% no-repeat #d9407f
+    background: #fff8ed;
 }
 
 #page-content-wrapper {
@@ -1166,15 +1170,15 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     margin: 30px 0 10px;
-    color: #ffd491;
+    color: #7326a1;
     font-size: 12px;
-    border-left: 5px solid #ffd491;
+    border-left: 5px solid #7326a1;
     padding: 0 0 0 25px;
 }
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #FFF;
+    color: #404040;
     text-align: left;
     margin-left: 30px;
     transition: all .3s ease;
@@ -1184,11 +1188,13 @@ img {
 }
 
 #sidebar-wrapper > a {
-  color: #ffd491
+  color: #e56b2a
 }
 
 .sidebar-nav li.current > a{
-    background: rgba(255, 255, 255, 0.24) !important;
+    background: #FFFFFF;
+    color: #DE0F73;
+    font-weight: bold;
 }
 
 .sidebar-nav li a:hover {
@@ -1210,7 +1216,6 @@ img {
 .sidebar-nav > .sidebar-brand h4{
     font-size: 18px;
     margin-left: 36px;
-    color: #FFF;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -1222,10 +1227,11 @@ img {
 }
 .sidebar-nav > .sidebar-brand a img{
     width: 80px;
+    box-shadow: 0 5px 20px #df85ca;
+    border-radius: 20px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
     background: none;
 }
 
